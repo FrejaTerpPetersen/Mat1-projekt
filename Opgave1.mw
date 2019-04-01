@@ -93,7 +93,7 @@
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart:with(LinearAlgebra):with(CurveFitting):with(Statistics):with(plots):</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart:with(LinearAlgebra):with(plots):</Text-field>
 </Input>
 </Group>
 <Group labelreference="L91" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
@@ -101,7 +101,7 @@
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">F:=(a,b)-&gt;((a*exp(-b*0))-100000)^2+((a*exp(-b*30))-40000)^2+((a*exp(-b*60))-23000)^2+((a*exp(-b*90))-15000)^2</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">F:=(a,b)-&gt;(a*exp(-b*0)-100000)^2+(a*exp(-b*30)-40000)^2+(a*exp(-b*60)-23000)^2+(a*exp(-b*90)-15000)^2</Text-field>
 </Input>
 <Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiQtRiM2KC1GLDYlUSJhRidGL0YyLUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkgvRktRJjAuMGVtRicvRk5RLDAuMzMzMzMzM2VtRictRiw2JVEiYkYnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjktRjY2LVEmJm1hcDtGJ0Y5RjtGPi9GQUYxRkJGREZGRkhGSkZNLUYjNiotSSVtc3VwR0YkNiUtRlA2JC1GIzYmLUYjNiZGVC1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIRmVuL0ZORmZuLUZobzYlLUY2Ni1RLyZFeHBvbmVudGlhbEU7RidGOUY7Rj5GQEZCRkRGRkZIRmVuL0ZOUSwwLjExMTExMTFlbUYnLUYjNiNGOS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGOS1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmRxLUkjbW5HRiQ2JFEnMTAwMDAwRidGOUY5RjktRmdxNiRRIjJGJ0Y5Rl1xLUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSEZjcUZlcS1GaG82JS1GUDYkLUYjNiYtRiM2JkZURmBwLUZobzYlRmZwLUYjNiUtRjY2LVEqJnVtaW51czA7RidGOUY7Rj5GQEZCRkRGRkZIRmNxRmVxLUYjNiYtRmdxNiRRIzMwRidGOUZgcEZpbkY5RjlGXXFGOUZgcS1GZ3E2JFEmNDAwMDBGJ0Y5RjlGOUZqcUZdcUZdci1GaG82JS1GUDYkLUYjNiYtRiM2JkZURmBwLUZobzYlRmZwLUYjNiVGXHMtRiM2Ji1GZ3E2JFEjNjBGJ0Y5RmBwRmluRjlGOUZdcUY5RmBxLUZncTYkUSYyMzAwMEYnRjlGOUY5RmpxRl1xRl1yLUZobzYlLUZQNiQtRiM2Ji1GIzYmRlRGYHAtRmhvNiVGZnAtRiM2JUZccy1GIzYmLUZncTYkUSM5MEYnRjlGYHBGaW5GOUY5Rl1xRjlGYHEtRmdxNiRRJjE1MDAwRidGOUY5RjlGanFGXXFGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJGR0YoZio2JEkiYUdGKEkiYkdGKEYoNiRJKW9wZXJhdG9yR0YoSSZhcnJvd0dGKEYoLCoqJCwmKiY5JCIiIi1JJGV4cEdGJTYjLCJGOkY6IScrKzVGOiIiI0Y6KiQsJiomRjlGOi1GPDYjLCQ5JSEjSUY6RjohJisrJUY6RkBGOiokLCYqJkY5RjotRjw2IywkRkchI2dGOkY6ISYrSSNGOkZARjoqJCwmKiZGOUY6LUY8NiMsJEZHISMhKkY6RjohJitdIkY6RkBGOkYoRihGKDcjRi4=</Equation></Text-field>
 </Output>
