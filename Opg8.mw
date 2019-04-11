@@ -88,8 +88,16 @@
     <Task-category name="&lt;default&gt;"/>
 </Task-table>
 <Task/>
-<Group hide-input="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart:with(LinearAlgebra):with(plots):</Text-field>
+<Group labelreference="L1173" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1174" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(LinearAlgebra):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1178" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):</Text-field>
 </Input>
 </Group>
 <Group labelreference="L90" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
@@ -125,12 +133,16 @@
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L103" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CE1:= unapply(rhs(sol1[1]),t):</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CE1:= unapply(rhs(sol1[1]),t)</Text-field>
 </Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEkQ0UxRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1GLDYlUSJ0RidGL0YyLUY2Ni1RJiZtYXA7RidGOUY7Rj4vRkFGMUZCRkRGRkZIRkpGTS1GIzYlLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZmbi1JJm1mcmFjR0YkNigtRiM2Ji1JKG1mZW5jZWRHRiQ2JC1GIzYqLUYjNiotRiw2JVEiYUYnRi9GMi1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORltwLUYsNiVRI0sxRidGL0YyRmdvLUZebzYkLUYjNilGWC1GLDYlUSNLMkYnRi9GMi1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIRmVuRmduLUYsNiVRI0szRidGL0YyLUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSEZlbkZnbi1GLDYlUSJkRidGL0YyRjlGOUZnby1JJW1zdXBHRiQ2JS1GNjYtUS8mRXhwb25lbnRpYWxFO0YnRjlGO0Y+RkBGQkZERkZGSEZqby9GTlEsMC4xMTExMTExZW1GJy1GIzYmRk9GZ28tRl5vNiQtRiM2KEZkcEZdcUZqcEZncC1GLDYlUSJiRidGL0YyRjlGOUY5LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Y5Rl1xLUYjNiotRiw2JVEiY0YnRi9GMkZnb0ZdcEZnby1GXm82JC1GIzYpRlhGZHBGZ3BGanBGXXFGYXJGOUY5RmdvLUZkcTYlRmZxLUYjNiZGT0Znby1GXm82JC1GIzYoRmRwRl1xRmpwRmdwRmBxRjlGOUY5RmRyRjlGXXEtRiM2Ji1GXm82JC1GIzYqLUYjNiYtRl5vNiQtRiM2JkZkb0ZdcUZpckY5RjlGZ29GZHBGOUZdcS1GIzYmRmB0RmdvRmpwRjlGZ3AtRiM2JkZkb0Znb0ZgcUY5RmdwLUYjNiZGaXJGZ29GYXJGOUY5RjlGZ29GXXBGOUZncC1GIzYoLUYsNiVRI0MwRidGL0YyRmdvRmBwRmdvRlxzRjlGOUY5RmdvLUZkcTYlRmZxLUYjNiVGWC1GIzYmLUZebzYkLUYjNiZGZHBGXXFGanBGOUY5RmdvRk9GOUY5RmRyRjktRiM2JkZgcEZnb0Zcc0Y5LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zgdi8lKWJldmVsbGVkR0Y9RjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRDRTFHRihmKjYjSSJ0R0YoRig2JEkpb3BlcmF0b3JHRihJJmFycm93R0YoRigsJCoqLCoqKkkiYUdGKCIiIkkjSzFHRihGOSwoSSNLMkdGKCEiIkkjSzNHRihGPUkiZEdGKEY5RjktSSRleHBHRiU2IyomOSRGOSwoRjxGOUY+RjlJImJHRihGPUY5RjlGOSoqSSJjR0YoRjlGOkY5LChGPEY9Rj5GPUZGRjlGOS1GQTYjKiZGREY5LChGPEY5Rj5GOUY/Rj1GOUY5RjkqJiwqKiYsJkY4RjlGSEY5RjlGPEY5RjkqJkZRRjlGPkY5RjkqJkY4RjlGP0Y5Rj0qJkZIRjlGRkY5Rj1GOUY6RjlGOSooSSNDMEdGKEY5RjtGOUZJRjlGPUY5LUZBNiMsJComLCZGPEY5Rj5GOUY5RkRGOUY9RjlGO0Y9RklGPUY9RihGKEYoNyNGLg==</Equation></Text-field>
+</Output>
 </Group>
 <Group hide-input="false" labelreference="L106" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CM1:= unapply(rhs(sol1[2]),t):</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CM1:= unapply(rhs(sol1[2]),t)</Text-field>
 </Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEkQ00xRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1GLDYlUSJ0RidGL0YyLUY2Ni1RJiZtYXA7RidGOUY7Rj4vRkFGMUZCRkRGRkZIRkpGTS1JJm1mcmFjR0YkNigtRiM2Ji1GLDYlUSNLM0YnRi9GMi1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORlxvLUkobWZlbmNlZEdGJDYkLUYjNiktRjY2LVEqJnVtaW51czA7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmdvLUYjNiotRl9vNiQtRiM2KC1GIzYmLUZfbzYkLUYjNigtRiM2Ji1GLDYlUSNDMEYnRi9GMkZobi1GLDYlUSJkRidGL0YyRjktRjY2LVEnJnBsdXM7RidGOUY7Rj5GQEZCRkRGRkZIRmZvRmhvLUYjNiYtRiw2JVEiY0YnRi9GMkZobi1GLDYlUSNLMUYnRi9GMkY5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGZm9GaG8tRiM2JkZncEZobi1GX282JC1GIzYmLUYsNiVRI0syRidGL0YyRl1xRmVuRjlGOUY5RjlGOUZobi1GLDYlUSJiRidGL0YyRjlGXXEtRiM2Ji1GX282JC1GIzYmLUYjNiZGZXFGaG4tRiw2JVEiYUYnRi9GMkY5RmhxRltyRjlGOUZobkZqcEY5RmhxLUYjNiYtRl9vNiQtRiM2Ji1GIzYmLUZfbzYkLUYjNiZGX3NGXXFGYnFGOUY5RmhuRmVxRjlGaHFGW3JGOUY5RmhuRl1yRjlGOUY5RmhuRmpwRmhuRmRyRmhuLUklbXN1cEdGJDYlLUY2Ni1RLyZFeHBvbmVudGlhbEU7RidGOUY7Rj5GQEZCRkRGRkZIRltvL0ZOUSwwLjExMTExMTFlbUYnLUYjNiVGY28tRiM2JkZdckZobkZPRjlGOS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGOUZdcS1GIzYuRmVxRmhuRl9zRmhuRmpwRmhuRl1yRmhuLUZfbzYkLUYjNilGY29GYXJGaHFGZW5GXXFGanBGOUY5RmhuLUZfdDYlRmF0LUYjNiVGY28tRiM2JkZkckZobkZPRjlGOUZqdEY5Rl1xLUYjNiYtRl9vNiQtRiM2KUZjb0ZhckZocUZlbkZdcUZkckY5RjlGaG4tRl9vNiQtRiM2Ji1GIzYsRmVxRmhuRmRyRmhuRmJxRmhuRl1yRmhuLUZfdDYlRmF0LUYjNiVGY28tRiM2JkZqcEZobkZPRjlGOUZqdEY5Rl1xLUYjNiYtRl9vNiQtRiM2Ji1GIzYmLUZfbzYkLUYjNiZGZXBGXXFGYHFGOUY5RmhuRmRyRjlGXXEtRiM2KEZlcUZobkZfc0ZobkZqcEY5RjlGOUZobkZfdUY5RjlGOUY5RjlGOUY5LUYjNixGZHJGaG5GanBGaG5GX3VGaG5GW3ZGaG5GXXJGOS8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGYHgvJSliZXZlbGxlZEdGPUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRDTTFHRihmKjYjSSJ0R0YoRig2JEkpb3BlcmF0b3JHRihJJmFycm93R0YoRigqMEkjSzNHRigiIiIsKCoqLCgqJiwoKiZJI0MwR0YoRjZJImRHRihGNkY2KiZJImNHRihGNkkjSzFHRihGNkY2KiZGPUY2LCZJI0syR0YoRjZGNUY2RjYhIiJGNkkiYkdGKEY2RjYqJiwmKiZGQUY2SSJhR0YoRjZGNkZCRkVGNkY+RjZGNiomLCYqJiwmRkpGNkZARjZGNkZBRjZGNkZCRkVGNkZDRjZGRUY2Rj5GNkZGRjYtSSRleHBHRiU2IywkKiZGQ0Y2OSRGNkZFRjZGRSouRkFGNkZKRjZGPkY2RkNGNiwoRkRGRUY1RkVGPkY2RjYtRlA2IywkKiZGRkY2RlRGNkZFRjZGNiomLChGREZFRjVGRUZGRjZGNiwmKixGQUY2RkZGNkZARjZGQ0Y2LUZQNiMsJComRj5GNkZURjZGRUY2RjYqJiwmKiYsJkY8RjYqJkZBRjZGQEY2RjZGNkZGRjZGNiooRkFGNkZKRjZGPkY2RjZGNkZWRjZGNkY2RjZGNkZGRkVGPkZFRlZGRUZmbkZFRkNGRUYoRihGKDcjRi4=</Equation></Text-field>
+</Output>
 </Group>
 <Group labelreference="L115" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Definerer v\303\246rdier af a, b, c og d.</Font></Text-field>
@@ -157,9 +169,9 @@
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L117" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CS := t-&gt; simplify(CM1(t)+CE1(t))</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CS := t-&gt; CM1(t)+CE1(t)</Text-field>
 </Input>
-<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEjQ1NGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYsNiVRInRGJ0YvRjItRjY2LVEmJm1hcDtGJ0Y5RjtGPi9GQUYxRkJGREZGRkhGSkZNLUYjNiYtRiw2JVEpc2ltcGxpZnlGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmluLUkobWZlbmNlZEdGJDYkLUYjNiYtRiM2Ji1GLDYlUSRDTTFGJ0YvRjJGZW4tRlxvNiQtRiM2JkZPLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9RjlGOUY5LUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZicC1GIzYmLUYsNiVRJENFMUYnRi9GMkZlbkZlb0Y5RjlGOUY5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNDU0dGKGYqNiNJInRHRihGKDYkSSlvcGVyYXRvckdGKEkmYXJyb3dHRihGKC1JKXNpbXBsaWZ5R0YlNiMsJi1JJENNMUdGKDYjOSQiIiItSSRDRTFHRihGOkY8RihGKEYoNyNGLg==</Equation></Text-field>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEjQ1NGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYsNiVRInRGJ0YvRjItRjY2LVEmJm1hcDtGJ0Y5RjtGPi9GQUYxRkJGREZGRkhGSkZNLUYjNiYtRiM2Ji1GLDYlUSRDTTFGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORltvLUkobWZlbmNlZEdGJDYkLUYjNiZGTy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjlGOS1GNjYtUScmcGx1cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GW3AtRiM2Ji1GLDYlUSRDRTFGJ0YvRjJGZ25GXW9GOUY5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNDU0dGKGYqNiNJInRHRihGKDYkSSlvcGVyYXRvckdGKEkmYXJyb3dHRihGKCwmLUkkQ00xR0YoNiM5JCIiIi1JJENFMUdGKEY3RjlGKEYoRig3I0Yu</Equation></Text-field>
 </Output>
 </Group>
 <Group labelreference="L123" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
@@ -228,7 +240,7 @@
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L95" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ligngv:=C0/a*c = g[gv]:</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ligngv:=C01/(a+c) = g[gv]:</Text-field>
 </Input>
 </Group>
 <Group labelreference="L99" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
@@ -236,31 +248,31 @@
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L98" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">C0 := solve(ligngv,C0)</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">C0 := solve(ligngv,C01)</Text-field>
 </Input>
-<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjQzBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFEtMC4zODM3NTIyOTA0RidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNDMEdGKCQiKy9IX1BRISM1NyNGLg==</Equation></Text-field>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjQzBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFEsMzQ4NTMuMDc0OTFGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNDMEdGKCQiKyJcMmBbJCEiJjcjRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L15517" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">C0 := 30000</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjQzBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFEmMzAwMDBGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNDMEdGKCImKyskNyNGLg==</Equation></Text-field>
 </Output>
 </Group>
 <Group labelreference="L541" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field style="Text" layout="Normal">Forloop der bruger mindste kvadraters metode til at opstille fejlfunktionen <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiotSSVtc3ViR0YkNiYtRiw2JVEiS0YnRi9GNS1GIzYlLUkjbW5HRiQ2JFEiMUYnL0Y2USdub3JtYWxGJ0YvRjUvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy9JK21zZW1hbnRpY3NHRiRRJ2F0b21pY0YnLUkjbW9HRiQ2LVEiLEYnRkkvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GPjYmRkAtRiM2JS1GRjYkUSIyRidGSUYvRjVGS0ZORlEtRj42JkZALUYjNiUtRkY2JFEiM0YnRklGL0Y1RktGTi1GUjYtUSFGJ0ZJRlVGV0ZZRmVuRmduRmluRltvRl1vRmBvRjJGSUYyRklGMkZJ">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiotSSVtc3ViR0YkNiYtRiw2JVEiS0YnRi9GNS1GIzYlLUkjbW5HRiQ2JFEiMUYnL0Y2USdub3JtYWxGJ0YvRjUvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy9JK21zZW1hbnRpY3NHRiRRJ2F0b21pY0YnLUkjbW9HRiQ2LVEiLEYnRkkvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GPjYmRkAtRiM2JS1GRjYkUSIyRidGSUYvRjVGS0ZORlEtRj42JkZALUYjNiUtRkY2JFEiM0YnRklGL0Y1RktGTi1GUjYtUSFGJ0ZJRlVGV0ZZRmVuRmduRmluRltvRl1vRmBvRjJGSUYyRklGMkZJ</Equation></Text-field>
+<Input><Text-field style="Text" layout="Normal">Mindste kvadraters metode til at opstille fejlfunktionen <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiotSSVtc3ViR0YkNiYtRiw2JVEiS0YnRi9GNS1GIzYlLUkjbW5HRiQ2JFEiMUYnL0Y2USdub3JtYWxGJ0YvRjUvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy9JK21zZW1hbnRpY3NHRiRRJ2F0b21pY0YnLUkjbW9HRiQ2LVEiLEYnRkkvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GPjYmRkAtRiM2JS1GRjYkUSIyRidGSUYvRjVGS0ZORlEtRj42JkZALUYjNiUtRkY2JFEiM0YnRklGL0Y1RktGTi1GUjYtUSFGJ0ZJRlVGV0ZZRmVuRmduRmluRltvRl1vRmBvRjJGSUYyRklGMkZJ">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiotSSVtc3ViR0YkNiYtRiw2JVEiS0YnRi9GNS1GIzYlLUkjbW5HRiQ2JFEiMUYnL0Y2USdub3JtYWxGJ0YvRjUvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy9JK21zZW1hbnRpY3NHRiRRJ2F0b21pY0YnLUkjbW9HRiQ2LVEiLEYnRkkvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GPjYmRkAtRiM2JS1GRjYkUSIyRidGSUYvRjVGS0ZORlEtRj42JkZALUYjNiUtRkY2JFEiM0YnRklGL0Y1RktGTi1GUjYtUSFGJ0ZJRlVGV0ZZRmVuRmduRmluRltvRl1vRmBvRjJGSUYyRklGMkZJ</Equation></Text-field>
 </Input>
 </Group>
-<Group hide-input="false" labelreference="L542" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Fgv:=0</Text-field>
-</Input>
-<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkRmd2RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRIjBGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRGZ3ZHRigiIiE3I0Yu</Equation></Text-field>
-</Output>
-</Group>
-<Group hide-input="false" labelreference="L540" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i from 1 by 1 to LinearAlgebra[Dimension](minut) do Fgv:=Fgv+(CS(minut[i])-gvdata[i])^2 end do:</Text-field>
+<Group hide-input="false" labelreference="L1383" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Fgvexpr :=add((CS(minut[i])-gvdata[i])^2,i=1..LinearAlgebra[Dimension](minut)):</Text-field>
 </Input>
 </Group>
 <Group labelreference="L552" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Definerer Fgv som en funktion, der er afh\303\246ngig af K1, K2 og K3.</Font></Text-field>
 </Input>
 </Group>
-<Group hide-input="false" labelreference="L545" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Fgv:=simplify(unapply(Fgv,K1, K2, K3)):</Text-field>
+<Group hide-input="false" labelreference="L1175" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Fgv:=unapply(Fgvexpr,K1, K2, K3):</Text-field>
 </Input>
 </Group>
 <Group labelreference="L543" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
@@ -284,19 +296,17 @@
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L537" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sol:=fsolve({lign1gv,lign2gv,lign3gv},{K1 = 0.08, K2 = 0.05, K3 = 0.05})</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sol:=fsolve({lign1gv=0,lign2gv=0,lign3gv=0}, {K1 = 0.06, K2 = 0.02, K3 = 0.02})</Text-field>
 </Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkc29sRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JKG1mZW5jZWRHRiQ2Ji1GIzYqLUYjNiYtRiw2JVEjSzFGJ0YvRjItRjY2LVEpJmVxdWFscztGJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUkjbW5HRiQ2JFEuMC4wNDM3MTExMTY5M0YnRjlGOS1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZOUSwwLjMzMzMzMzNlbUYnLUYjNiYtRiw2JVEjSzJGJ0YvRjJGWS1GZ242JFEvMC4wMDgwODQ1Mjg1MTdGJ0Y5RjlGam4tRiM2Ji1GLDYlUSNLM0YnRi9GMkZZLUZnbjYkUS8wLjAwOTk0NDY2NTg0N0YnRjlGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjkvJSVvcGVuR1EnJmxjdWI7RicvJSZjbG9zZUdRJyZyY3ViO0YnRjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRzb2xHRig8JS9JI0sxR0YoJCIrJHA2NlAlISM2L0kjSzJHRigkIis8JkdYMykhIzcvSSNLM0dGKCQiK1plbVcqKkY4NyNGLg==</Equation></Text-field>
+</Output>
 </Group>
 <Group labelreference="L1170" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">?fsolve</Text-field>
-</Input>
-</Group>
-<Group labelreference="L556" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
 </Input>
 </Group>
-<Group labelreference="L557" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">contourplot(Fgv(K1,K2,K2),K1=0..0.1,K2=0..0.08,contours=100):</Text-field>
+<Group hide-input="false" labelreference="L557" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">contourplot(Fgv(K1,K2,K2),K1=-0.02..0.1,K2=0..0.4,contours=200):</Text-field>
 </Input>
 </Group>
 </Section>
@@ -314,7 +324,7 @@
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L45" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ligngh:=C0[gh]/a*c = g[gh]:</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ligngh:=C02/(a+c) = g[gh]:</Text-field>
 </Input>
 </Group>
 <Group labelreference="L50" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
@@ -322,13 +332,63 @@
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L48" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">C0[gh] := solve(ligngh,C0[gh])</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">C0 := solve(ligngh,C02)</Text-field>
 </Input>
-<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEjQzBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRi82JVEjZ2hGJ0YyRjUvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjZRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZGLyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRlUtSSNtbkdGJDYkUS0wLjI5NjI2NDkyNjhGJ0ZCRkI=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+JkkjQzBHRig2I0kjZ2hHRigkIitvI1xFJ0ghIzU3I0Yx</Equation></Text-field>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjQzBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFEsMjY5MDcuMzE0ODFGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNDMEdGKCQiKyJbSjJwIyEiJjcjRi4=</Equation></Text-field>
 </Output>
 </Group>
+<Group hide-input="false" labelreference="L1601" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Mindste kvadraters metode til at opstille fejlfunktionen <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2JC1GIzYqLUklbXN1YkdGJDYmLUYsNiVRIktGJ0YvRjItRiM2Ji1JI21uR0YkNiRRIjFGJy9GM1Enbm9ybWFsRidGLy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnRjIvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy9JK21zZW1hbnRpY3NHRiRRJ2F0b21pY0YnLUkjbW9HRiQ2LVEiLEYnRkYvJSZmZW5jZUdGSi8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0ZKLyUqc3ltbWV0cmljR0ZKLyUobGFyZ2VvcEdGSi8lLm1vdmFibGVsaW1pdHNHRkovJSdhY2NlbnRHRkovJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GOzYmRj0tRiM2Ji1GQzYkUSIyRidGRkYvRkhGMkZLRk5GUS1GOzYmRj0tRiM2Ji1GQzYkUSIzRidGRkYvRkhGMkZLRk4tRlI2LVEhRidGRkZVRldGWUZlbkZnbkZpbkZbb0Zdb0Zgb0ZIRkZGRkZIRkY=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2JC1GIzYqLUklbXN1YkdGJDYmLUYsNiVRIktGJ0YvRjItRiM2Ji1JI21uR0YkNiRRIjFGJy9GM1Enbm9ybWFsRidGLy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnRjIvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy9JK21zZW1hbnRpY3NHRiRRJ2F0b21pY0YnLUkjbW9HRiQ2LVEiLEYnRkYvJSZmZW5jZUdGSi8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0ZKLyUqc3ltbWV0cmljR0ZKLyUobGFyZ2VvcEdGSi8lLm1vdmFibGVsaW1pdHNHRkovJSdhY2NlbnRHRkovJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GOzYmRj0tRiM2Ji1GQzYkUSIyRidGRkYvRkhGMkZLRk5GUS1GOzYmRj0tRiM2Ji1GQzYkUSIzRidGRkYvRkhGMkZLRk4tRlI2LVEhRidGRkZVRldGWUZlbkZnbkZpbkZbb0Zdb0Zgb0ZIRkZGRkZIRkY=</Equation></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1598" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Fghexpr :=add((CS(minut[i])-ghdata[i])^2,i=1..LinearAlgebra[Dimension](minut)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1591" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Definerer Fgv som en funktion, der er afh\303\246ngig af K1, K2 og K3.</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1599" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Fgh:=unapply(Fghexpr,K1, K2, K3):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1595" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Der opstilles tre differentialkvotienter, som skal bruges til at finde l\303\270sninger for K1, K2 og K3.</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1594" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lign1gh:=diff(Fgh(K1, K2, K3),K1):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1600" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lign2gh:=diff(Fgh(K1, K2, K3),K2):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1592" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lign3gh:=diff(Fgh(K1, K2, K3),K3):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1596" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">L\303\270sningerne for a, b, c og d findes vha. fsolve, som estimerer l\303\270sningerne ig plottes.</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1597" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sol:=fsolve({lign1gh=0,lign2gh=0,lign3gh=0},{K1 = 0.06, K2 = 0.02, K3 = 0.02})</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkc29sRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JKG1mZW5jZWRHRiQ2Ji1GIzYqLUYjNiYtRiw2JVEjSzFGJ0YvRjItRjY2LVEpJmVxdWFscztGJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUkjbW5HRiQ2JFEuMC4wNjExODQ3OTkxNEYnRjlGOS1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZOUSwwLjMzMzMzMzNlbUYnLUYjNiYtRiw2JVEjSzJGJ0YvRjJGWS1GZ242JFEuMC4wMjA5OTYxODAyN0YnRjlGOUZqbi1GIzYmLUYsNiVRI0szRidGL0YyRlktRmduNiRRLjAuMDIzNjQ1MDUwMTJGJ0Y5RjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOUY5LyUlb3BlbkdRJyZsY3ViO0YnLyUmY2xvc2VHUScmcmN1YjtGJ0Y5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRzb2xHRig8JS9JI0sxR0YoJCIrOSp6JT1oISM2L0kjSzJHRigkIitGIT0nKjQjRjMvSSNLM0dGKCQiKzddXWtCRjM3I0Yu</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L1593" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">contourplot(Fgh(K1,K2,K2),K1=0..0.1,K2=0..0.08,contours=100):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1589" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
 </Section>
-<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Hvid masse, venstre hjernehalvdel</Text-field></Title>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Hvid masse, venstre hjernehalvdel</Text-field></Title>
 <Group labelreference="L58" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field style="Text" layout="Normal">Definerer g</Text-field>
 </Input>
@@ -342,7 +402,7 @@
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L57" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lignhv:=C0[hv]/a*c = g[hv]:</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lignhv:=C03/(a+c) = g[hv]:</Text-field>
 </Input>
 </Group>
 <Group labelreference="L55" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
@@ -350,13 +410,67 @@
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L54" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">C0[hv] := solve(lignhv,C0[hv])</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">C0 := solve(lignhv,C03)</Text-field>
 </Input>
-<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEjQzBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRi82JVEjaHZGJ0YyRjUvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjZRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZGLyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRlUtSSNtbkdGJDYkUS0wLjIzNTg5NzA2MTdGJ0ZCRkI=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+JkkjQzBHRig2I0kjaHZHRigkIis8MSgqZUIhIzU3I0Yx</Equation></Text-field>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjQzBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFEsMjE0MjQuNTk2NDZGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNDMEdGKCQiK1knZkM5IyEiJjcjRi4=</Equation></Text-field>
 </Output>
 </Group>
+<Group hide-input="false" labelreference="L9758" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Mindste kvadraters metode til at opstille fejlfunktionen <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2JC1GIzYqLUklbXN1YkdGJDYmLUYsNiVRIktGJ0YvRjItRiM2Ji1JI21uR0YkNiRRIjFGJy9GM1Enbm9ybWFsRidGLy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnRjIvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy9JK21zZW1hbnRpY3NHRiRRJ2F0b21pY0YnLUkjbW9HRiQ2LVEiLEYnRkYvJSZmZW5jZUdGSi8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0ZKLyUqc3ltbWV0cmljR0ZKLyUobGFyZ2VvcEdGSi8lLm1vdmFibGVsaW1pdHNHRkovJSdhY2NlbnRHRkovJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GOzYmRj0tRiM2Ji1GQzYkUSIyRidGRkYvRkhGMkZLRk5GUS1GOzYmRj0tRiM2Ji1GQzYkUSIzRidGRkYvRkhGMkZLRk4tRlI2LVEhRidGRkZVRldGWUZlbkZnbkZpbkZbb0Zdb0Zgb0ZIRkZGRkZIRkY=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2JC1GIzYqLUklbXN1YkdGJDYmLUYsNiVRIktGJ0YvRjItRiM2Ji1JI21uR0YkNiRRIjFGJy9GM1Enbm9ybWFsRidGLy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnRjIvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy9JK21zZW1hbnRpY3NHRiRRJ2F0b21pY0YnLUkjbW9HRiQ2LVEiLEYnRkYvJSZmZW5jZUdGSi8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0ZKLyUqc3ltbWV0cmljR0ZKLyUobGFyZ2VvcEdGSi8lLm1vdmFibGVsaW1pdHNHRkovJSdhY2NlbnRHRkovJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GOzYmRj0tRiM2Ji1GQzYkUSIyRidGRkYvRkhGMkZLRk5GUS1GOzYmRj0tRiM2Ji1GQzYkUSIzRidGRkYvRkhGMkZLRk4tRlI2LVEhRidGRkZVRldGWUZlbkZnbkZpbkZbb0Zdb0Zgb0ZIRkZGRkZIRkY=</Equation></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1811" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Fhvexpr :=add((CS(minut[i])-hvdata[i])^2,i=1..LinearAlgebra[Dimension](minut)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1816" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Definerer Fgv som en funktion, der er afh\303\246ngig af K1, K2 og K3.</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1808" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Fhv:=unapply(Fhvexpr,K1, K2, K3):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1812" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Der opstilles tre differentialkvotienter, som skal bruges til at finde l\303\270sninger for K1, K2 og K3.</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1815" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lign1hv:=diff(Fhv(K1, K2, K3),K1):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1809" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lign2hv:=diff(Fhv(K1, K2, K3),K2):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1817" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lign3hv:=diff(Fhv(K1, K2, K3),K3):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1813" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">L\303\270sningerne for a, b, c og d findes vha. fsolve, som estimerer l\303\270sningerne ig plottes.</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1810" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sol:=fsolve({lign1hv=0,lign2hv=0,lign3hv=0},{K1 = 0.06, K2 = 0.02, K3 = 0.02})</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkc29sRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JKG1mZW5jZWRHRiQ2Ji1GIzYqLUYjNiYtRiw2JVEjSzFGJ0YvRjItRjY2LVEpJmVxdWFscztGJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUkjbW5HRiQ2JFEuMC4wNDQwMzgxMzU0M0YnRjlGOS1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZOUSwwLjMzMzMzMzNlbUYnLUYjNiYtRiw2JVEjSzJGJ0YvRjJGWS1GZ242JFEuMC4wMjUzNTAwODU5M0YnRjlGOUZqbi1GIzYmLUYsNiVRI0szRidGL0YyRlktRmduNiRRLjAuMDI5MDgyNjU1ODhGJ0Y5RjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOUY5LyUlb3BlbkdRJyZsY3ViO0YnLyUmY2xvc2VHUScmcmN1YjtGJ0Y5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRzb2xHRig8JS9JI0sxR0YoJCIrVk4iUVMlISM2L0kjSzJHRigkIiskZjNdYCNGMy9JI0szR0YoJCIrKWVsIzNIRjM3I0Yu</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L1807" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1814" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">contourplot(Fhv(K1,K2,K2),K1=0..0.1,K2=0..0.08,contours=100):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1806" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
 </Section>
-<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"><Font encoding="UTF-8">Hvid masse, h\303\270jre hjernehalvdel</Font></Text-field></Title>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"><Font encoding="UTF-8">Hvid masse, h\303\270jre hjernehalvdel</Font></Text-field></Title>
 <Group labelreference="L66" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field style="Text" layout="Normal">Definerer g</Text-field>
 </Input>
@@ -370,7 +484,7 @@
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L67" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lignhh:=C0[hh]/a*c = g[hh]:</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lignhh:= C04/(a+c) = g[hh]:</Text-field>
 </Input>
 </Group>
 <Group labelreference="L65" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
@@ -378,10 +492,62 @@
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L62" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">C0[hh] := solve(lignhh,C0[hh])</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">C0 := solve(lignhh,C04)</Text-field>
 </Input>
-<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEjQzBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRi82JVEjaGhGJ0YyRjUvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjZRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZGLyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRlUtSSNtbkdGJDYkUS0wLjI2NzY4MDA0NDdGJ0ZCRkI=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+JkkjQzBHRig2I0kjaGhHRigkIitaLyFvbiMhIzU3I0Yx</Equation></Text-field>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjQzBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFEsMjQzMTEuMTg0MjdGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNDMEdGKCQiK0YlPTZWIyEiJjcjRi4=</Equation></Text-field>
 </Output>
+</Group>
+<Group hide-input="false" labelreference="L15516" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">C0 := 20000</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjQzBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFEmMjAwMDBGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNDMEdGKCImKysjNyNGLg==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L9763" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Mindste kvadraters metode til at opstille fejlfunktionen <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2JC1GIzYqLUklbXN1YkdGJDYmLUYsNiVRIktGJ0YvRjItRiM2Ji1JI21uR0YkNiRRIjFGJy9GM1Enbm9ybWFsRidGLy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnRjIvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy9JK21zZW1hbnRpY3NHRiRRJ2F0b21pY0YnLUkjbW9HRiQ2LVEiLEYnRkYvJSZmZW5jZUdGSi8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0ZKLyUqc3ltbWV0cmljR0ZKLyUobGFyZ2VvcEdGSi8lLm1vdmFibGVsaW1pdHNHRkovJSdhY2NlbnRHRkovJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GOzYmRj0tRiM2Ji1GQzYkUSIyRidGRkYvRkhGMkZLRk5GUS1GOzYmRj0tRiM2Ji1GQzYkUSIzRidGRkYvRkhGMkZLRk4tRlI2LVEhRidGRkZVRldGWUZlbkZnbkZpbkZbb0Zdb0Zgb0ZIRkZGRkZIRkY=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2JC1GIzYqLUklbXN1YkdGJDYmLUYsNiVRIktGJ0YvRjItRiM2Ji1JI21uR0YkNiRRIjFGJy9GM1Enbm9ybWFsRidGLy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnRjIvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy9JK21zZW1hbnRpY3NHRiRRJ2F0b21pY0YnLUkjbW9HRiQ2LVEiLEYnRkYvJSZmZW5jZUdGSi8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0ZKLyUqc3ltbWV0cmljR0ZKLyUobGFyZ2VvcEdGSi8lLm1vdmFibGVsaW1pdHNHRkovJSdhY2NlbnRHRkovJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GOzYmRj0tRiM2Ji1GQzYkUSIyRidGRkYvRkhGMkZLRk5GUS1GOzYmRj0tRiM2Ji1GQzYkUSIzRidGRkYvRkhGMkZLRk4tRlI2LVEhRidGRkZVRldGWUZlbkZnbkZpbkZbb0Zdb0Zgb0ZIRkZGRkZIRkY=</Equation></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L9765" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Fhhexpr :=add((CS(minut[i])-hhdata[i])^2,i=1..LinearAlgebra[Dimension](minut)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L9768" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Definerer Fgv som en funktion, der er afh\303\246ngig af K1, K2 og K3.</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L9767" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Fhh:=unapply(Fhhexpr,K1, K2, K3):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L9761" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Der opstilles tre differentialkvotienter, som skal bruges til at finde l\303\270sninger for K1, K2 og K3.</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L9760" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lign1hh:=diff(Fhh(K1, K2, K3),K1):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L9766" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lign2hh:=diff(Fhh(K1, K2, K3),K2):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L9769" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lign3hh:=diff(Fhh(K1, K2, K3),K3):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L9762" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">L\303\270sningerne for a, b, c og d findes vha. fsolve, som estimerer l\303\270sningerne ig plottes.</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L9764" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sol:=fsolve({lign1hh=0,lign2hh=0,lign3hh=0},{K1 = 0.04, K2 = 0.03, K3 = 0.03})</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkc29sRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JKG1mZW5jZWRHRiQ2Ji1GIzYqLUYjNiYtRiw2JVEjSzFGJ0YvRjItRjY2LVEpJmVxdWFscztGJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUkjbW5HRiQ2JFEuMC4wMzc4MjcwMzQxNUYnRjlGOS1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZOUSwwLjMzMzMzMzNlbUYnLUYjNiYtRiw2JVEjSzJGJ0YvRjJGWS1GZ242JFEuMC4wMTg4MDQyMTgyMEYnRjlGOUZqbi1GIzYmLUYsNiVRI0szRidGL0YyRlktRmduNiRRLjAuMDE4MTk1MzE4MjdGJ0Y5RjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOUY5LyUlb3BlbkdRJyZsY3ViO0YnLyUmY2xvc2VHUScmcmN1YjtGJ0Y5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRzb2xHRig8JS9JI0sxR0YoJCIrOk1xI3kkISM2L0kjSzJHRigkIis/PVUhKT1GMy9JI0szR0YoJCIrRj1gPj1GMzcjRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L9770" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">contourplot(Fhh(K1,K2,K2),K1=0..0.1,K2=0..0.2,contours=500):</Text-field>
+</Input>
 </Group>
 </Section>
 <Group labelreference="L36" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
@@ -439,22 +605,10 @@
 <Group hide-input="false" labelreference="L14" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#lign3:=C[0]/a*c = g</Text-field>
 </Input>
-<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEmbGlnbjNGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFEsMS4wMDk5NzQ0MjhGJ0Y5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GVy1JJW1zdWJHRiQ2JS1GLDYlUSJDRidGL0YyLUZQNiRRIjBGJ0Y5LyUvc3Vic2NyaXB0c2hpZnRHRltvRjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSZsaWduM0dGKCwkKiYkIitHVygqNDUhIioiIiImSSJDR0YoNiMiIiFGM0YzNyNGLg==</Equation></Text-field>
-</Output>
 </Group>
 <Group hide-input="false" labelreference="L15" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#lign4:= beta = K[1]+(b-K[2])*1/a*C[0]</Text-field>
 </Input>
-</Group>
-<Group labelreference="L16" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field style="Text" layout="Normal">Find <Equation executable="false" style="Text" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUklbXN1YkdGJDYmLUkjbWlHRiQ2JVEiQ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUkjbW5HRiQ2JFEiMEYnL0Y2USdub3JtYWxGJ0YyRjUvJS9zdWJzY3JpcHRzaGlmdEdGPS9JK21zZW1hbnRpY3NHRiRRJ2F0b21pY0YnRj4=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUklbXN1YkdGJDYmLUkjbWlHRiQ2JVEiQ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUkjbW5HRiQ2JFEiMEYnL0Y2USdub3JtYWxGJ0YyRjUvJS9zdWJzY3JpcHRzaGlmdEdGPS9JK21zZW1hbnRpY3NHRiRRJ2F0b21pY0YnRj4=</Equation></Text-field><Text-field style="Text" layout="Normal"></Text-field>
-</Input>
-</Group>
-<Group hide-input="false" labelreference="L17" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">C[0] := solve(lign3,C[0])</Text-field>
-</Input>
-<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEiQ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21uR0YkNiRRIjBGJy9GNlEnbm9ybWFsRicvJS9zdWJzY3JpcHRzaGlmdEdGOy1JI21vR0YkNi1RKSZBc3NpZ247RidGPC8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGRi8lKXN0cmV0Y2h5R0ZGLyUqc3ltbWV0cmljR0ZGLyUobGFyZ2VvcEdGRi8lLm1vdmFibGVsaW1pdHNHRkYvJSdhY2NlbnRHRkYvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZVLUY5NiRRLTAuOTkwMTI0MDc4N0YnRjwtRkE2LVExJkludmlzaWJsZVRpbWVzO0YnRjxGREZHRklGS0ZNRk9GUS9GVFEmMC4wZW1GJy9GV0Zpbi1GLzYlUSJnRidGMkY1Rjw=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+JkkiQ0dGKDYjIiIhLCQqJiQiKyh5UzchKiohIzUiIiJJImdHRihGNkY2NyNGMQ==</Equation></Text-field>
-</Output>
 </Group>
 <Group labelreference="L20" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
