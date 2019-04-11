@@ -228,7 +228,7 @@
 <Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Vi bestemmer nu begyndelsesv\303\246rdibetingelsen </Font><Equation executable="false" style="Text" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEiQ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYnLUkjbW5HRiQ2JFEiMEYnL0Y2USdub3JtYWxGJ0YyLyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRicvJSxwbGFjZWhvbGRlckdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHRj1GPg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEiQ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYnLUkjbW5HRiQ2JFEiMEYnL0Y2USdub3JtYWxGJ0YyLyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRicvJSxwbGFjZWhvbGRlckdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHRj1GPg==</Equation><Font encoding="UTF-8"> for hver del af hjernen og derefter bestemmer vi v\303\246rdier af K1, K2 og K3 ved mindste kvadraters metode.</Font></Text-field>
 </Input>
 </Group>
-<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"><Font encoding="UTF-8">Gr\303\245 masse, venstre hjernehalvdel</Font></Text-field></Title>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"><Font encoding="UTF-8">Gr\303\245 masse, venstre hjernehalvdel</Font></Text-field></Title>
 <Group labelreference="L97" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field style="Text" layout="Normal">Definerer g</Text-field>
 </Input>
@@ -344,7 +344,7 @@
 </Output>
 </Group>
 </Section>
-<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"><Font encoding="UTF-8">Gr\303\245 masse, h\303\270jre hjernehalvdel</Font></Text-field></Title>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"><Font encoding="UTF-8">Gr\303\245 masse, h\303\270jre hjernehalvdel</Font></Text-field></Title>
 <Group labelreference="L47" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field style="Text" layout="Normal">Definerer g</Text-field>
 </Input>
@@ -450,7 +450,7 @@
 </Output>
 </Group>
 </Section>
-<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Hvid masse, venstre hjernehalvdel</Text-field></Title>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Hvid masse, venstre hjernehalvdel</Text-field></Title>
 <Group labelreference="L58" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field style="Text" layout="Normal">Definerer g</Text-field>
 </Input>
@@ -556,7 +556,7 @@
 </Output>
 </Group>
 </Section>
-<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"><Font encoding="UTF-8">Hvid masse, h\303\270jre hjernehalvdel</Font></Text-field></Title>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"><Font encoding="UTF-8">Hvid masse, h\303\270jre hjernehalvdel</Font></Text-field></Title>
 <Group labelreference="L66" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field style="Text" layout="Normal">Definerer g</Text-field>
 </Input>
